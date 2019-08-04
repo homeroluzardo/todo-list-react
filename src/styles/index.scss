@@ -1,13 +1,74 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+/*
 
     You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
+
+
+    ...Or you can use the import command to include
     other sylesheets into your bunde as well, e.j:
-    
+
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+#lista{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+h1{
+    font-size: 100px;
+    text-align: center;
+    font-family: monospace;
+}
+
+.newTask{
+    border-radius: 0;
+    border: 1px solid #ced4da;
+    height: calc(1.5em + 1rem + 2px);
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    width: 100%;
+}
+
+input:focus {
+   outline:none;
+}
+
+input{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.list-group-item{
+    border-radius: 0 !important;
+}
+
+#itemsLeft{
+font-size: 12px;
+    padding-left: 5px;
+}
+span{
+    color: white;
+    float: right;
+}
+
+li:hover span{
+    color: black;
+    cursor: pointer;
+}
+
+#itemsLeft{
+    background: white;
+    box-shadow:
+        0 10px 0 -5px white, /* segunda capa */
+        0 10px 1px -4px rgba(0,0,0,0.15), /* sombra segunda capa */
+        0 20px 0 -10px white, /* tercera capa */
+        0 20px 1px -9px rgba(0,0,0,0.15); /* sombra tercera capa */
+}
+
+ul{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
